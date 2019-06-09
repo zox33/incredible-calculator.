@@ -47,7 +47,13 @@ public class Calculator {
 
 				break;
 			case 4:
-
+				System.out.println("Inserte numero a");
+				a = Leer.datoInt();
+				System.out.println("Inserte numero b");
+				b = Leer.datoInt();
+				result = a / b;
+				System.out.println("El resultado es "+result);
+				break;
 
 			case 5:
 				System.out.println("En esta calculadora deberás elegir una opción tras eso, deberas elegir dos numero, siendo a"
