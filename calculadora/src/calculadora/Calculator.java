@@ -1,4 +1,4 @@
-package calculadora;
+﻿package calculadora;
 
 import util.Leer;
 
@@ -28,7 +28,12 @@ public class Calculator {
 
 				break;
 			case 2:
-
+				System.out.println("Inserte numero a");
+				a = Leer.datoInt();
+				System.out.println("Inserte numero b");
+				b = Leer.datoInt();
+				result = a - b;
+				System.out.println("El resultado es "+result);
 
 				break;
 			case 3:
